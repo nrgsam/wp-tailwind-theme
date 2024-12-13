@@ -6,3 +6,55 @@
 @import "font";
 @import "header";
 @import "footer";
+
+.dual-color{
+    span{
+        color:#FF7700;
+    }
+}
+.text-orange{
+    color:#FF7700;
+}
+.price{
+font-size: 20px;
+color: #999;
+position:relative;
+&:before{
+content:"";
+position: absolute;
+top: 15px;
+width: 100%;
+height: 1px;
+border-bottom: 1px solid #999;
+transform: rotate(20deg);
+
+}
+}
+.final-price{
+    font-size: 28px;
+}
+.post-box{
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow:0 0 3px #999;
+   
+}
+.cat{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: white;
+    background-color: #FF7700;
+    padding: 3px 15px;
+    border-radius: 10px;
+
+}
+.title{
+    font-size: 24px;
+    padding: 10px 15px;
+    color: #777;
+
+}
+h2.product-title{
+    font-size: 48px;
+}
